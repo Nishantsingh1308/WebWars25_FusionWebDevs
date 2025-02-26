@@ -1,5 +1,5 @@
-.about-container {
-    background: linear-gradient(135deg, #0f172a, #1e293b);
+.details-container {
+    background: radial-gradient(circle, #0f172a, #1e293b);
     color: #00eaff;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
@@ -8,32 +8,34 @@
     box-shadow: 0 0 15px rgba(0, 234, 255, 0.5);
   }
   
-  .about-container h1 {
-    font-size: 2.5rem;
+  .details-container h1,
+  .details-container h2 {
     text-shadow: 0 0 20px #00eaff;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   
-  .about-container p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    max-width: 800px;
-    margin: auto;
-    text-shadow: 0 0 10px rgba(0, 234, 255, 0.5);
+  .event-info,
+  .countdown,
+  .topics {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 234, 255, 0.5);
   }
   
-  .about-container h2 {
-    font-size: 1.8rem;
-    margin-top: 30px;
+  .timer {
+    font-size: 2rem;
+    font-weight: bold;
     text-shadow: 0 0 15px #00eaff;
   }
   
-  .about-container ul {
+  .topics ul {
     list-style: none;
     padding: 0;
   }
   
-  .about-container ul li {
+  .topics ul li {
     font-size: 1.2rem;
     margin: 10px 0;
     text-shadow: 0 0 10px rgba(0, 234, 255, 0.5);
@@ -41,7 +43,7 @@
     padding-left: 25px;
   }
   
-  .about-container ul li::before {
+  .topics ul li::before {
     content: '★';
     position: absolute;
     left: 0;

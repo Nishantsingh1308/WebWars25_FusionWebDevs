@@ -1,0 +1,54 @@
+.contact-container {
+    background: radial-gradient(circle, #0f172a, #1e293b);
+    color: #00eaff;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 234, 255, 0.5);
+  }
+  
+  .contact-container h1,
+  .contact-container h2 {
+    text-shadow: 0 0 20px #00eaff;
+    margin-bottom: 15px;
+  }
+  
+  .faq-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq-list li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-shadow: 0 0 10px rgba(0, 234, 255, 0.5);
+  }
+  
+  .contact-container a {
+    color: #00eaff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-container a:hover {
+    text-shadow: 0 0 10px #00eaff;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-links li {
+    display: inline;
+  }
+  
+  .social-links a {
+    font-size: 1.2rem;
+    text-shadow: 0 0 10px #00eaff;
+  }
+  

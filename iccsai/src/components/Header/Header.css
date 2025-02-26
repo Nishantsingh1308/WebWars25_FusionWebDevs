@@ -154,3 +154,20 @@
     }
   }
   
+  .header {
+  position: fixed;   /* Keeps it at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white; /* Ensures it blends well */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;    /* Keeps it above everything else */
+  padding: 15px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* When scrolling, shrink the header */
+.scroll-header {
+  padding: 10px 0;
+  background: rgba(255, 255, 255, 0.9);
+}
